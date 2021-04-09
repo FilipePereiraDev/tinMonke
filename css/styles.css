@@ -1,0 +1,192 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    color: #8f8f88;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#title {
+    text-align: left;
+    padding: 5% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.dw-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+    width: 60%;
+    transform: rotate(23deg);
+    position: absolute;
+    right: 18%;
+}
+
+.img-monke {
+    position: relative;
+}
+
+/* Features Section */
+#features {
+
+    position: relative;
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.icon {
+    color: #EF8172;
+    margin-bottom: 1.1rem;
+}
+
+.icon:hover {
+    color: #FF4C68;
+}
+
+/* Testimionals Section */
+
+#testimonials {
+    background-color: #EF8172;
+    padding: 2%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press {
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-txt {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Call To Action*/
+
+#cta {
+    background-color: #FF4C68;
+    padding: 7% 15%;
+}
+
+.call-action {
+    font-size: 3.3rem;
+}
+
+/* Footer */
+#footer {
+    padding: 5%;
+}
+
+.socials {
+    margin: 1%;
+    padding-bottom: 1%;
+}
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
